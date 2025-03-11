@@ -1,4 +1,4 @@
-package com.celsonf;
+package com.school;
 
 import io.micronaut.runtime.Micronaut;
 

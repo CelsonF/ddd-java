@@ -1,4 +1,4 @@
-package com.celsonf;
+package com.school.Student;
 
 import org.junit.jupiter.api.Test;
 
@@ -22,7 +22,10 @@ class EmailTest {
 
     @Test
     void testing_success_email() {
-        Email email = new Email("email@email.com");
+        String emailAddress = "email@email.com";
+        var email = new Email(emailAddress);
+
+        assertEquals(emailAddress,email.getEmail());
 
     }
 
