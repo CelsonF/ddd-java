@@ -5,9 +5,9 @@ import java.util.List;
 
 public class Student {
 
+    private Email email;
     private String name;
     private Cpf cpf;
-    private Email email;
     private List<Telephone> telephones = new ArrayList<>();
 
 
@@ -25,12 +25,12 @@ public class Student {
         return name;
     }
 
-    public Cpf getCpf() {
-        return cpf;
+    public String getCpf() {
+        return cpf.getCpf();
     }
 
-    public Email getEmail() {
-        return email;
+    public String getEmail() {
+        return email.getEmail();
     }
 
     public List<Telephone> getTelephones() {
