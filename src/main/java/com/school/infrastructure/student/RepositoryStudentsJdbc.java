@@ -1,4 +1,4 @@
-package com.school.infrastructure;
+package com.school.infrastructure.student;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

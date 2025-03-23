@@ -1,4 +1,4 @@
-package com.school.infrastructure;
+package com.school.infrastructure.student;
 
 import com.school.domain.student.PasswordEncrypt;
 
