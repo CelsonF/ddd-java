@@ -5,26 +5,26 @@ import java.time.LocalDateTime;
 
 public class Indication {
 
-    private Student indicado;
-    private Student indicante;
-    private LocalDateTime dataInicio;
+    private Student indicated;
+    private Student indicatedStudent;
+    private LocalDateTime startTime;
 
-    public Indication(Student indicado, Student indicante) {
-        this.indicado = indicado;
-        this.indicante = indicante;
-        this.dataInicio = LocalDateTime.now();
+    public Indication(Student indicated, Student indicatedStudent) {
+        this.indicated = indicated;
+        this.indicatedStudent = indicatedStudent;
+        this.startTime = LocalDateTime.now();
     }
 
-    public Student getIndicante() {
-        return indicante;
+    public Student getIndicated() {
+        return indicated;
     }
 
-    public Student getIndicado() {
-        return indicado;
+    public Student getIndicatedStudent() {
+        return indicatedStudent;
     }
 
-    public LocalDateTime getDataInicio() {
-        return dataInicio;
+    public LocalDateTime getStartTime() {
+        return startTime;
     }
 
 }
