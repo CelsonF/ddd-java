@@ -1,7 +1,6 @@
-package com.school.Indication;
+package com.school.domain.indication;
 
-import com.school.Student.Student;
-
+import com.school.domain.student.Student;
 import java.time.LocalDateTime;
 
 public class Indication {

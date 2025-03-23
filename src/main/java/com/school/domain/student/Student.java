@@ -1,4 +1,4 @@
-package com.school.Student;
+package com.school.domain.student;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,10 @@ public class Student {
     private Email email;
     private String name;
     private Cpf cpf;
+
     private List<Telephone> telephones = new ArrayList<>();
+
+    private String password;
 
 
     public Student(String name, Cpf cpf, Email email) {

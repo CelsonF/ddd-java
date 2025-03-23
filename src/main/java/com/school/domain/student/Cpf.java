@@ -1,4 +1,4 @@
-package com.school.Student;
+package com.school.domain.student;
 
 public class Cpf {
 

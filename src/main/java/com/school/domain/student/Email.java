@@ -1,6 +1,6 @@
-package com.school.Student;
+package com.school.domain.student;
 
-class Email {
+public class Email {
 
     private String email;
 
