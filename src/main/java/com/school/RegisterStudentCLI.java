@@ -11,7 +11,7 @@ public class RegisterStudentCLI {
         String email = "celson-araujo97@hotmail.com";
 
         RegisterStudent register = new RegisterStudent(new RepositoryStudentsMemory());
-        register.registerStudent(new RegisterStudentDTO(name, cpf, email));
+        register.execute(new RegisterStudentDTO(name, cpf, email));
 
     }
 }

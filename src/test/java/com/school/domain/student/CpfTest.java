@@ -1,5 +1,6 @@
-package com.school.Student;
+package com.school.domain.student;
 
+import com.school.domain.student.Cpf;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

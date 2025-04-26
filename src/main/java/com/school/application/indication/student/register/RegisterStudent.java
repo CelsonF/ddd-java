@@ -11,7 +11,7 @@ public class RegisterStudent {
         this.studentRepository = studentRepository;
     }
 
-    public void registerStudent(RegisterStudentDTO dataStudent) {
+    public void execute(RegisterStudentDTO dataStudent) {
         Student student = dataStudent.createStudent();
         studentRepository.register(student);
     }
